@@ -1,3 +1,151 @@
-.App {
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable declaration-block-no-redundant-longhand-properties */
+/* stylelint-disable property-no-vendor-prefix */
+body {
+  background-color: black;
+  /* background-image: url('https://cdn.eso.org/images/wallpaper4/eso1633c.jpg'); */
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/5424634-estrelas-em-uma-noite-ceu-fundo-gr%C3%A1tis-vetor.jpg');
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-family: monospace;
+  height: 90%;
   text-align: center;
+  width: 100%;
+}
+
+.missões {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+header {
+  font-family: Calibri;
+}
+
+.contentMissions {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.missionCard {
+  align-content: center;
+  background-color: rgb(8, 33, 64);
+  /* background-image: url('https://ae01.alicdn.com/kf/HTB1clA6IpXXXXcNXXXXq6xXFXXXG/Papel-de-parede-customizado-universo-estrelas-usadas-para-sala-de-estar-teto-do-quarto-bar-ktv.jpg'); */
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  height: 110px;
+  justify-content: space-evenly;
+  line-height: 1.8;
+  width: 250px;
+}
+
+.Urano {
+  -webkit-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  width: 100%;
+}
+
+.Vênus {
+  display: flex;
+  padding: 8px 0;
+  width: 80%;
+}
+
+.Júpiter {
+  padding: 5px 0;
+  width: 80%;
+}
+
+.planets-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* justify-content: center; */
+  position: relative;
+  width: 120px;
+}
+
+/* img {
+  width: 100%;
+} */
+
+.planetName {
+  align-items: center;
+  background-color: rgb(8, 33, 64);
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 95px;
+}
+
+p {
+  margin: 0;
+}
+
+.Marte {
+  margin: 5px 0;
+  width: 75%;
+}
+
+.paiDeTodos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2 {
+  align-items: center;
+  background-color: rgb(8, 33, 64);
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  /* gap: 50px; */
+  font-family: Calibri;
+  height: 30px;
+  justify-content: center;
+  margin: 20px 0;
+  width: 300px;
+}
+
+.Mercúrio {
+  width: 100%;
+}
+
+.Terra {
+  width: 95%;
+}
+
+.Saturno {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.Netuno {
+  width: 100%;
+}
+
+footer {
+  margin: 10px 0;
 }
